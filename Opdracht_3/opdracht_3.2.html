@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Opdracht 3.2: Formulieren</title>
+    </head>
+    <body>
+        <h1>Opdracht 3.2: Formulieren</h1>
+        <!--Naam-->
+        <label for="fname">Voornaam: </label>
+        <input type="text" id="fname" name="fname" pattern="[A-Za-z]" autofocus><br><br>
+        <label for="lname">Achternaam: </label>
+        <input type="text" id="lname" name="lname" pattern="[A-Za-z]"><br><br>
+        <!--Geslacht-->
+        <label for="geslacht">Geslacht: </label>
+        <input type="radio" id="man" name="geslacht" value="man" checked>
+            <label for="man">Man</label>
+        <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+            <label for="vrouw">Vrouw</label>
+        <input type="radio" id="anders" name="geslacht" value="anders">
+            <label for="anders">Anders</label><br><br>
+        <!--Eigen Locatie-->
+        <label for="straat">Straat met huisnummer: </label>
+        <input type="text" id="straat" name="straat" pattern="[A-Za-z]" pattern="[0-9]{2}"><br><br>
+        <label for="post">Postcode: </label>
+        <input type="text" id="post" name="post" pattern="[A-Za-z]{4}" pattern="[0-9]{2}" maxlength="6"><br><br>
+        <label for="stad">Stad: </label>
+        <input type="text" id="stad" name="stad" pattern="[A-Za-z]" ><br><br>
+        <label for="land">Land: </label>
+        <input type="text" id="land" name="land" pattern="[A-Za-z]" ><br><br>
+        <!--BSN Nummer-->
+        <label for="bsn">BSN-nummer: </label>
+        <input type="number" id="bsn" name="bsn" min="0" maxlength="9" pattern="[0-9]{9}"><br><br>
+        <!--Vakantie Landen-->
+        <label for="vland">Vakantielanden: </label>
+        <select name="vland" id="vland">
+            <option value="Select" disabled selected>Selecteer Vakantieland</option>
+            <option value="Spanje">Spanje</option>
+            <option value="Italie">Italië</option>
+            <option value="Griekenland">Griekenland</option>
+        </select><br><br>
+        <!--Datum--> <!--Waar heb je input type="month" voor nodig? En ik heb nog niet uitgevonden hoe je verleden disabled-->
+        <label for="gdate">Datum van vertrek: </label> <!--Mag niet in het verleden zijn-->
+        <input type="date" id="gdate" name="gdate"><br><br>
+        <label for="rdate">Datum van terugkomst: </label> <!--Mag niet in het verleden zijn-->
+        <input type="date" id="rdate" name="rdate"><br><br>
+        <!--Reisgenoten-->
+        <label for="reisgenoten">Reisgenoten: </label>
+        <select name="reisgenoten" id="reisgenoten">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br><br>
+        <!--Submit-->
+        <input type="submit" value="Boek nu"><br><br>
+        <!--Email-->
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email"><br><br>
+        <!--Wachtwoord-->
+        <label for="pass">Wachtwoord: </label> <!--(om account aan te maken) → wachtwoord mag niet getoond worden-->
+        <input type="password" id="pass" name="pass"><br><br> 
+    </body>
+</html>

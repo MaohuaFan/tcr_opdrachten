@@ -1,0 +1,72 @@
+h1 {
+    font-size: 24px;/*Een font grote hebben van 24 pixels*/
+    color: blue;/*Kleur moet blauw zijn*/
+    font-weight: bold;/*Dikgedrukt*/
+    font-style: italic;/*Schuingedrukt*/
+}
+
+h2 {
+    font-size: 20px;/*Een font grote hebben van 20 pixels*/
+    color: #0000ff;/*Kleur is #0000ff*/
+    font-weight: bold;/*Dikgedrukt*/
+}
+
+h3 {
+    font-size: 16px;/*Een font grote hebben van 16 pixels*/
+    color: teal;/*Kleur “Teal”*/
+    font-weight: bold;/*Dikgedrukt*/
+}
+
+p {
+    color: #4D4D4D;/*Kleur is #4D4D4D  */
+    font-weight: bold;/*Eerste paragraaf is dikgedrukt.*/
+}
+
+a {
+    color: #8A2BE2;/*Kleur is #8A2BE2*/
+    text-decoration: none; /*Verwijder de lijn onder de link tekst*/
+}
+
+/*De header krijgt een breedte van het hele scherm en een hoogte van minimaal 1/3 van het scherm (je mag zelf bepalen hoe groot)*/
+header {
+    width: 100%;
+    height: 30%;
+    background-image: url("./img/bg_header_img_game.jpg"); /*De header krijgt een achtergrond afbeelding naar keuze. Het moet wel binnen het thema passen.*/
+}
+
+/*De afbeelding moet de volledige breedte en hoogte bedekken
+De afbeelding mag zichzelf niet herhalen
+De afbeelding moet gecentreerd zijn.*/
+header background-image {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+
+/*Verander alleen de kleur van de <h1> en <p> in de header zodat ze beter te lezen zijn.*/
+header h1 {
+    color:gold;
+}
+
+header p {
+    color:gold;
+}
+
+/*img
+Alle afbeeldingen hebben een breedte van de helft van het scherm.
+Denk goed na welke unit je gebruikt (px, rem, em, vh, vw)*/
+img {
+    width: 50%;
+}
+
+/*Alle articles krijgen een border
+Border moet rond zijn, de grootte mag je zelf bepalen
+Kleur naar keuze
+Lijn naar keuze
+De lijn aan de linkerkant moet dikker zijn*/
+article {
+    border: 2px dotted red; 
+    border-radius: 5px;
+    border-left-style: solid ;
+}

@@ -1,0 +1,28 @@
+h1 {
+    font-size: 24px;/*Een font grote hebben van 24 pixels*/
+    color: blue;/*Kleur moet blauw zijn*/
+    font-weight: bold;/*Dikgedrukt*/
+    font-style: italic;/*Schuingedrukt*/
+}
+
+h2 {
+    font-size: 20px;/*Een font grote hebben van 20 pixels*/
+    color: #0000ff;/*Kleur is #0000ff*/
+    font-weight: bold;/*Dikgedrukt*/
+}
+
+h3 {
+    font-size: 16px;/*Een font grote hebben van 16 pixels*/
+    color: teal;/*Kleur “Teal”*/
+    font-weight: bold;/*Dikgedrukt*/
+}
+
+p {
+    color: #4D4D4D;/*Kleur is #4D4D4D  */
+    font-weight: bold;/*Eerste paragraaf is dikgedrukt.*/
+}
+
+a {
+    color: #8A2BE2;/*Kleur is #8A2BE2*/
+    text-decoration: none; /*Verwijder de lijn onder de link tekst*/
+}
