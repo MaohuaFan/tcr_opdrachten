@@ -14,6 +14,13 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /*Nieuw*/
+  background-image: url("./img/hacker.png");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
 }
 
 
@@ -27,16 +34,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
-  background-image: url("./img/hacker.png");
 }
-
-nav background-image {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  align-self: center;
-}
-
 nav ul {
   display: flex;
   align-items: center;
@@ -68,3 +66,17 @@ nav img {
   font-size: 24px;  
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+/*
+    Zorg dat de hacker afbeelding als achtergrond wordt laten zien. Kijk goed naar het ontwerp
+    Breedte is de breedte van het scherm
+    Hoogte is de hoogte van het scherm
+    Tip: de navigatiebar heeft ook een hoogte, deze mag je niet mee berekenen.
+    Elke section heeft een hoogte en een breedte van het scherm.
+    De hele website heeft een zwarte achtergrond kleur.
+    De footer heeft dezelfde kleur als de navigatiebar
+    Bepaal de hoogte van de footer
+    Verander de lettertype naar Goldman, te vinden op Google Fonts
+    Alle titels zijn dikgedrukt
+*/
