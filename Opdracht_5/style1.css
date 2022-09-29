@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  /*padding: 0;*/
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Goldman", cursive;
+    /*Opdracht 5.1*/
+    min-height: 100vh;
+}
+main {
+    /*Opdracht 4.3*/
+    background-image: url("./img/hacker.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    width: 100%;
+    height: 100vh ; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+}
+main img {
+    width: fit-content;
+}
+
+nav {
+    padding: 2rem 0;
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #00a8c7;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 0 4rem 0 4rem;
+    font-size: 2.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav img {
+    width: 5vw;
+}
+  
+/* Opdracht 3.1*/
+.tekst
+{
+    font-size: 24px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: circle;
+}
+  
+.tekst2
+{
+    font-size: 24px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Opdracht 4.3*/
+footer {
+    height: 10vh;
+    background-color: #00a8c7;
+    color: black;
+}
+  
+/* Opdracht 4.3
+Zorg dat de hacker afbeelding als achtergrond wordt laten zien. Kijk goed naar het ontwerp
+Breedte is de breedte van het scherm
+Hoogte is de hoogte van het scherm
+Tip: de navigatiebar heeft ook een hoogte, deze mag je niet mee berekenen.
+Elke section heeft een hoogte en een breedte van het scherm.
+De hele website heeft een zwarte achtergrond kleur.
+De footer heeft dezelfde kleur als de navigatiebar
+Bepaal de hoogte van de footer
+Verander de lettertype naar Goldman, te vinden op Google Fonts
+Alle titels zijn dikgedrukt
+*/
+
+/*Opdacht 5.1
+Positioneer de navbar bovenaan. Hij staat nu al bovenin, maar wanneer je scrolt verdwijnt het uit beeld. Aan jou om ervoor te zorgen dat de navbar altijd bovenaan in beeld blijft, ook wanneer je scrolt.
+Positioneer de footer onderaan de pagina. Let op, deze is moeilijk: een footer blijft alleen onderaan gepositioneerd als je de body ook een postion geeft en een hoogte van minimaal 100vh. Aan jou om uit te zoeken welke positie de footer en de body krijgt.
+Center de tekst van de footer in het midden en zorg dat er ruimte om de tekst ontstaat zodat het niet tegen de rand van de footer aan zit.
+Center alle titels in het midden van de pagina.
+Positioneer de teksten en afbeeldingen naast elkaar, zoals op het voorbeeld. Voor nu gebruik je hiervoor float. Volgende week leer je het met Flexbox.
+Zorg ervoor dat er ruimte ontstaat tussen de titel en de afbeeldingen met teksten. Denk goed na of je padding of margin gebruikt.
+Loop de website na om te kijken of het er precies zo uit ziet als op het voorbeeld. De teksten en afbeeldingen mogen niet tegen de rand van de pagina (website) komen.
+*/
+
