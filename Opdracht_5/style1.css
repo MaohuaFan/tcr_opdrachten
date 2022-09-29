@@ -13,14 +13,16 @@
   body {
       font-family: "Goldman", cursive;
       min-height: 100vh;
+      width: 100%;
       color: white;
+      position: relative;
   }
   main {
       /*Opdracht 4.3*/
       background-image: url("./img/hacker.png");
       background-color: black; /* Used if the image is unavailable */
       width: 100%;
-      height: 120vh ; /* You must set a specified height */
+      height: 85vh; /* You must set a specified height */
       background-position: center; /* Center the image */
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: contain;
@@ -32,8 +34,8 @@
   nav {
     display: flex;
     width: 100%;
-    padding: 2rem;
-    min-height: 10vh;
+    padding: 0.5rem;
+    min-height: 5vh;
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
@@ -41,6 +43,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
+    left: 0;
   }
 
   nav ul {
@@ -57,7 +60,7 @@
     text-decoration: none;
   }
   nav img {
-    width: 5vw;
+    width: 4vw;
   }
     
   /* Opdracht 3.1*/
@@ -78,12 +81,18 @@
   
   /*Opdracht 4.3*/
   footer {
-    height: 10vh;
     background-color: #00a8c7;
     color: white;
+    height: 6vh;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.2vh;
     font-family: "Goldman", cursive;
     text-align: center;
-    padding: 3vh;
+    font-size:1vw;
+    position: absolute;
+    
   }
   h1 {
     font-weight: bold;
@@ -91,7 +100,7 @@
     
   }
     
-  /* Opdracht 4.3
+/* Opdracht 4.3
   Zorg dat de hacker afbeelding als achtergrond wordt laten zien. Kijk goed naar het ontwerp V
   Breedte is de breedte van het scherm V?
   Hoogte is de hoogte van het scherm V?
@@ -100,15 +109,15 @@
   De hele website heeft een zwarte achtergrond kleur. V
   De footer heeft dezelfde kleur als de navigatiebar V
   Bepaal de hoogte van de footer V
-  Verander de lettertype naar Goldman, te vinden op Google Fonts ?
-  Alle titels zijn dikgedrukt 
-  */
+  Verander de lettertype naar Goldman, te vinden op Google Fonts V?
+  Alle titels zijn dikgedrukt V
+*/
   
 
 /*Opdacht 5.1
 Positioneer de navbar bovenaan. Hij staat nu al bovenin, maar wanneer je scrolt verdwijnt het uit beeld. Aan jou om ervoor te zorgen dat de navbar altijd bovenaan in beeld blijft, ook wanneer je scrolt. V
 Positioneer de footer onderaan de pagina. Let op, deze is moeilijk: een footer blijft alleen onderaan gepositioneerd als je de body ook een postion geeft en een hoogte van minimaal 100vh. Aan jou om uit te zoeken welke positie de footer en de body krijgt. V?
-Center de tekst van de footer in het midden en zorg dat er ruimte om de tekst ontstaat zodat het niet tegen de rand van de footer aan zit.
+Center de tekst van de footer in het midden en zorg dat er ruimte om de tekst ontstaat zodat het niet tegen de rand van de footer aan zit. V?
 Center alle titels in het midden van de pagina. V?
 Positioneer de teksten en afbeeldingen naast elkaar, zoals op het voorbeeld. Voor nu gebruik je hiervoor float. Volgende week leer je het met Flexbox. ?
 Zorg ervoor dat er ruimte ontstaat tussen de titel en de afbeeldingen met teksten. Denk goed na of je padding of margin gebruikt. ?
