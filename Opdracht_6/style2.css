@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+}
+
+.blue {
+    order: 3;
+}
+
+.black {
+    order: 2;
+}
+
+.red {
+    order: 1;
+}
+
+.green {
+    order: -1;
+}
