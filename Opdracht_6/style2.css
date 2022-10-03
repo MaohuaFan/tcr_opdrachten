@@ -24,15 +24,15 @@ img {
 }
 
 .blue {
-    order: 3;
-}
-
-.black {
     order: 2;
 }
 
-.red {
+.black {
     order: 1;
+}
+
+.red {
+    order: 0;
 }
 
 .green {
