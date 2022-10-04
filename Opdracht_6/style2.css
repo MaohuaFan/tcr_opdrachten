@@ -1,40 +1,49 @@
 * {
     margin: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-right: 0;
-    padding-left: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
 
-}
 
 .container {
     width: 1200px;
+    height: 100vh;
+    border: 1vh sold black;
     display: flex;
     justify-content: space-evenly;
 }
 
-img {
+/*img {
     width: 200px;
     height: 200px;
     text-decoration: none;
-}
+}*/
 
 .blue {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
     order: 2;
 }
 
 .black {
+    width: 200px;
+    height: 200px;
+    background-color: black;
     order: 1;
 }
 
 .red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
     order: 0;
 }
 
 .green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
     order: -1;
 }
