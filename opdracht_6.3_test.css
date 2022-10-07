@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    list-style-type:none;
+}
+a {
+    text-decoration: none;
+}
+
+.one {
+    flex: 0.25 1 0;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.two {
+    flex: 0.5 1 0;
+    display:flex;
+    justify-content:space-evenly;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.three {
+    flex: 0.25 1 0;
+    background-color: lightcyan;
+    text-align: center;
+}
