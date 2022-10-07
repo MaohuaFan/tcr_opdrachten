@@ -10,31 +10,28 @@ nav ul {
     list-style-type:none;
     display:flex;
 }
-
-nav ul li {
-    flex-basis: 100vw;
-    flex-grow: 0.5;
-}
-
-.logo {
-    flex-basis: 1;
-    background-color: yellow;
-    overflow: hidden;
-}
-.nav {
-    flex-grow: 2;
-    background: red;
-    overflow: hidden;
-}
-
-.login {
-    flex-basis: 1;
-    background-color: green;
-    overflow: hidden;
-}
-
 a {
     text-decoration: none;
     color: blue;
     font-size: 1.3vw;
 }
+
+
+.logo {
+    flex: 0.25 1 0;
+    background-color: yellow;
+    }
+
+.nav {
+    flex: 0.5 1 0;
+    background: red;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    }
+
+.login {
+    flex: 0.25 1 0;
+    background-color: green;
+    }
+
