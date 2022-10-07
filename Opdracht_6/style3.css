@@ -17,11 +17,17 @@ nav ul li {
 }
 
 .logo {
-    flex-grow: 0.25;
+    flex-basis: 1;
+    background-color: yellow;
+}
+.nav {
+    flex-grow: 2;
+    background: red;
 }
 
 .login {
-    flex-grow: 0.25;
+    flex-basis: 1;
+    background-color: green;
 }
 
 a {
