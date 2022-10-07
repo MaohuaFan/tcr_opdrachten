@@ -13,27 +13,28 @@ nav ul {
 a {
     text-decoration: none;
     color: blue;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
 }
 
 
 .logo {
     flex: 0.25 1 0;
-    background-color: yellow;
-    justify-content: center;
+    background-color: lightblue;
+    text-align: center;
     }
 
 .nav {
     flex: 0.5 1 0;
-    background: red;
+    background: lightcoral;
     display: flex;
     justify-content: space-evenly;
     overflow: hidden;
+    text-align: flex-start;
     }
 
 .login {
     flex: 0.25 1 0;
-    background-color: green;
-    justify-content: center;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
     }
 
