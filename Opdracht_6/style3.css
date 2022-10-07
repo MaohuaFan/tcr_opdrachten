@@ -19,15 +19,18 @@ nav ul li {
 .logo {
     flex-basis: 1;
     background-color: yellow;
+    overflow: hidden;
 }
 .nav {
     flex-grow: 2;
     background: red;
+    overflow: hidden;
 }
 
 .login {
     flex-basis: 1;
     background-color: green;
+    overflow: hidden;
 }
 
 a {
