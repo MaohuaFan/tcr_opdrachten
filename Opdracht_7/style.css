@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:;
+    width: 100vw;
+    height: 16vh;
+}
+.menu a {
+    text-decoration: none;
+}
+.t1 {
+    background-color: aliceblue;
+    width: 100vw;
+    height: 28vh;    
+}
+
+.t2 {
+    background-color: aqua;
+    width: 100vw;
+    height: 28vh;
+}
+
+.t3 {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 28vh;
+}
+
+
+@media only screen and (min-width: 1024px) /*Desktop*/
+{
+    body {
+        background-color: lightblue;
+    }
+    .menu {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .menu a {
+        text-decoration: none;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) /*Tablet*/
+{
+    body {
+        background-color: lightblue;
+    }
+    .menu {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .menu a {
+        text-decoration: none;
+    }
+}
+@media only screen and (max-width: 767px) 
+{
+    body {
+        background-color: lightblue;
+    }
+    .menu {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .menu a {
+        text-decoration: none;
+    }
+}
+
+
