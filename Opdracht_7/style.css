@@ -1,83 +1,251 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
 }
 
-.menu {
+.logo {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color:;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 4vw;
+    background-color:#ea4d4b;
     width: 100vw;
-    height: 16vh;
-}
-.menu a {
-    text-decoration: none;
-}
-.t1 {
-    background-color: aliceblue;
-    width: 100vw;
-    height: 28vh;    
+    height: 10vh;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: bold;  
 }
 
-.t2 {
-    background-color: aqua;
+h2 {
+    font-weight:bold;
+}
+.s1 {
+    background-color: #f9ca22;
     width: 100vw;
-    height: 28vh;
+    height: 30vh;  
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 4vw;  
+    padding-top: 1vw;
+    font-size: 1.05vw;
 }
 
-.t3 {
-    background-color: aquamarine;
+.s2 {
+    background-color: #f0922b;
     width: 100vw;
-    height: 28vh;
+    height: 30vw;  
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 4vw;  
+    padding-top: 1vw;
+    font-size: 1.05vw;
 }
 
+.s3 {
+    background-color: #69b04c;
+    width: 100vw;
+    height: 30vh;  
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 4vw;  
+    padding-top: 1vw;
+    font-size: 1.05vw;
+}
 
 @media only screen and (min-width: 1024px) /*Desktop*/
 {
-    body {
-        background-color: lightblue;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    .menu {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .logo {
         list-style: none;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;
+        background-color:#ea4d4b;
+        width: 100vw;
+        height: 10vh;
+        color: white;
+        font-size: 1.5vw;
+        font-weight: bold;  
     }
-    .menu a {
-        text-decoration: none;
+    
+    h2 {
+        font-weight:bold;
     }
+    .s1 {
+        background-color: #f9ca22;
+        width: 100vw;
+        height: 30vh;  
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;  
+        padding-top: 1vw;
+        font-size: 1.05vw;
+    }
+    
+    .s2 {
+        background-color: #f0922b;
+        width: 100vw;
+        height: 30vh;  
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;  
+        padding-top: 1vw;
+        font-size: 1.05vw;
+    }
+    
+    .s3 {
+        background-color: #69b04c;
+        width: 100vw;
+        height: 30vh;  
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;  
+        padding-top: 1vw;
+        font-size: 1.05vw;
+    }    
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1023px) /*Tablet*/
 {
-    body {
-        background-color: lightblue;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    .menu {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .logo {
         list-style: none;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;
+        background-color: #ff6b81;
+        width: 100vw;
+        height: 10vh;
+        color: white;
+        font-size: 1.5vw;
+        font-weight: bold;  
     }
-    .menu a {
-        text-decoration: none;
+    
+    h2 {
+        font-weight:bold;
     }
+    .s1 {
+        background-color: #f9ca22;
+        width: 100vw;
+        height: 30vh;  
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;  
+        padding-top: 1vw;
+        font-size: 1.05vw;
+    }
+    
+    .s2 {
+        background-color: #f0922b;
+        width: 100vw;
+        height: 30vh;  
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;  
+        padding-top: 1vw;
+        font-size: 1.05vw;
+    }
+    
+    .s3 {
+        background-color: #69b04c;
+        width: 100vw;
+        height: 30vh;  
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;  
+        padding-top: 1vw;
+        font-size: 1.05vw;
+    }    
 }
-@media only screen and (max-width: 767px) 
+@media only screen and (max-width: 767px) /*Mobile*/
 {
-    body {
-        background-color: lightblue;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-    .menu {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .logo {
         list-style: none;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;
+        background-color:#ea4d4b;
+        width: 100vw;
+        height: 10vh;
+        color: white;
+        font-size: 1.5vw;
+        font-weight: bold;  
     }
-    .menu a {
-        text-decoration: none;
+    
+    h2 {
+        font-weight:bold;
     }
+    .s1 {
+        background-color: #f9ca22;
+        width: 100vw;
+        height: 30vh;  
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;  
+        padding-top: 1vw;
+        font-size: 1.05vw;
+    }
+    
+    .s2 {
+        background-color: #f0922b;
+        width: 100vw;
+        height: 30vh;  
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;  
+        padding-top: 1vw;
+        font-size: 1.05vw;
+    }
+    
+    .s3 {
+        background-color: #69b04c;
+        width: 100vw;
+        height: 30vh;  
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 4vw;  
+        padding-top: 1vw;
+        font-size: 1.05vw;
+    }    
 }
-
-
