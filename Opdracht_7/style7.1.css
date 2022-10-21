@@ -8,19 +8,37 @@ body {
     height: 100vh;
 }
 
-.logo {
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 4vw;
+nav {
     background-color:#ea4d4b;
     width: 100vw;
     height: 10vh;
+    display: flex;
+}
+
+nav h1 {
+    list-style: none;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
     color: white;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: bold;  
+}
+
+nav a {
+    display: hidden;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    width: 1.75vw;
+    height: 4vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 h2 {
@@ -71,10 +89,11 @@ h2 {
     }
     body {
         width: 100vw;
-        height: 100vh;
+        min-height: 110vh;
+        background-color: black;
     }
     
-    .logo {
+    nav {
         list-style: none;
         display: flex;
         flex-flow: row wrap;
@@ -138,10 +157,10 @@ h2 {
     }
     body {
         width: 100vw;
-        height: 100vh;
+        min-height: 110vh;
     }
     
-    .logo {
+    nav {
         list-style: none;
         display: flex;
         flex-flow: row wrap;
@@ -205,10 +224,10 @@ h2 {
     }
     body {
         width: 100vw;
-        height: 100vh;
+        min-height: 110vh;
     }
     
-    .logo {
+    nav {
         list-style: none;
         display: flex;
         flex-flow: row wrap;
@@ -230,7 +249,7 @@ h2 {
     .s1 {
         background-color: #7ed6df;
         width: 100vw;
-        height: 30vh;  
+        height: 40vh;  
         align-items: center;
         justify-content: center;
         padding-left: 4vw;  
@@ -242,7 +261,7 @@ h2 {
     .s2 {
         background-color: #e056fd;
         width: 100vw;
-        height: 30vh;  
+        height: 40vh;  
         align-items: center;
         justify-content: center;
         padding-left: 4vw;  
@@ -254,7 +273,7 @@ h2 {
     .s3 {
         background-color: #30336a;
         width: 100vw;
-        height: 30vh;  
+        height: 40vh;  
         align-items: center;
         justify-content: center;
         padding-left: 4vw;  
